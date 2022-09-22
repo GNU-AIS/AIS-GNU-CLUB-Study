@@ -4,6 +4,7 @@ import pandas as pd
 from selenium import webdriver
 import time
 
+# 네이버에서 종목 코드를 불러옴
 def searchNameForNaver(name):
     url = "https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query="
     wd = webdriver.Chrome('./WebDriver/chromedriver.exe')
@@ -17,6 +18,7 @@ def searchNameForNaver(name):
     print(tagEm.string)
     return tagEm.string
     
+# 네이버 금융에서 증시 정보를 검색 저장
 def searchFinance(code, maxPage):
     url = "https://finance.naver.com/item/sise_day.naver?code="
     wd = webdriver.Chrome('./WebDriver/chromedriver.exe')
