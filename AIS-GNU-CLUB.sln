@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Finance", "Finance\Finance.pyproj", "{A119DEAB-DBB0-46A7-9728-BF0BA2FA39E5}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "OpenDataAPI", "OpenDataAPI\OpenDataAPI.pyproj", "{F77F0922-DEAD-449C-B6A2-EC270F36C7AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A119DEAB-DBB0-46A7-9728-BF0BA2FA39E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A119DEAB-DBB0-46A7-9728-BF0BA2FA39E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F77F0922-DEAD-449C-B6A2-EC270F36C7AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F77F0922-DEAD-449C-B6A2-EC270F36C7AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
