@@ -9,6 +9,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "OpenDataAPI", "OpenDataAPI\
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Wine", "Wine\Wine.pyproj", "{53422EB0-66B1-4305-A9CA-2869EA9DFC53}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "FinanceToChart", "FinanceToChart\FinanceToChart.pyproj", "{4E9C3AC9-C17F-47EC-A29E-934CB05B55FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,8 @@ Global
 		{F77F0922-DEAD-449C-B6A2-EC270F36C7AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53422EB0-66B1-4305-A9CA-2869EA9DFC53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{53422EB0-66B1-4305-A9CA-2869EA9DFC53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E9C3AC9-C17F-47EC-A29E-934CB05B55FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E9C3AC9-C17F-47EC-A29E-934CB05B55FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

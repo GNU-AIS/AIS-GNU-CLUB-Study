@@ -47,6 +47,7 @@ print(wine.groupby('type')['quality'].agg(['mean', 'std']))
 # t-검정과 회귀 분석으로 그룹 비교
 # t-검정이란 모집단의 분산이나 표준편차를 알지 못할 때 표본으로부터 추정된
 # 분산이나 표준편차를 이용하여 두 모집단의 평균의 차이를 알아보는 검정 방법
+
 from scipy import stats
 from statsmodels.formula.api import ols, glm
 red_wine_quality = wine.loc[wine['type'] == 'red', 'quality']
