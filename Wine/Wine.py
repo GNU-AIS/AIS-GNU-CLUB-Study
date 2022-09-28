@@ -64,6 +64,7 @@ regression_result = ols(Rformula, data = wine).fit()
 print(regression_result.summary())
 
 # 회귀 분석 모델로 새로운 샘플의 품질 등급 예측하기
+# 회귀 분석이란 둘 이상의 변수의 모형을 구하고 적합도를 측정하는 분석 방법
 # 품질 등급을 예측하려면 먼저 독립 변수인 11개 속성에 대한 샘플 데이터가 필요함
 sample1 = wine[wine.columns.difference(['quality', 'type'])]
 sample1 = sample1[0:5][:]
@@ -99,6 +100,7 @@ plt.show()
 
 # 부분 회귀 플롯으로 시각화하기
 import statsmodels.api as sm
+# 고정산(ficed_acidity가 종속변수 퀄리티에 미치는 영향력)
 others = list(set(wine.columns).difference(set(["quality", "fixed_acidity"])))
 p, resids = sm.graphics.plot_partregress("quality", "fixed_acidity", others, data = wine, ret_coords = True)
 
