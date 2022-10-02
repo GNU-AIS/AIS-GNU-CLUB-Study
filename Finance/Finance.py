@@ -57,6 +57,7 @@ def searchFinance(code, maxPage):
                 spanStringList.append(tmp)
                 continue
 
+
             spanStringList.append(span.string)
     
     l = [spanStringList[r*7:(r+1)*7]for r in range(10*int(maxPage))]
